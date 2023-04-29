@@ -11,11 +11,17 @@
 <body>
   <header class="display-flex justify-space-between align-center p-2">
     <h1>
-      User Registry
+      <a href="/">Blog</a>
+      
     </h1>
     {{#if logged_in}}
     <nav>
       <button class="btn" id="logout">logout</button>
+    </nav>
+    {{else}}
+    <nav>
+      <button class="login">Login</button>
+      <button class="signup">Sign up</button>
     </nav>
     {{/if}}
   </header>
@@ -26,6 +32,7 @@
       
   </footer>
 
+<script src="/js/main.js"></script>
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
