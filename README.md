@@ -42,7 +42,7 @@
   
   ## Link
   
-  To lunch the app click here  👉  [![Heroku Badge](https://www.herokucdn.com/deploy/button.svg)](https://note-taker-genci.herokuapp.com/notes)
+  To lunch the app click here  👉  [![Heroku Badge](https://www.herokucdn.com/deploy/button.svg)](https://limitless-beach-35087.herokuapp.com/)
 
   </br>
   
